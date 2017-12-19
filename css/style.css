@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
+.header{
+    background: url("../img/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 138px 0 0;
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+}
+.logoimg{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    bottom: -34px;
+}
+.logoimg img{
+    vertical-align: middle;
+    width: 78px;
+
+}
+.header h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom:40px;
+}
+.header h2{
+    color: #ffffff;
+    font-size: 34px;
+}
+.main{
+    margin-top: 80px;
+}
+.caption a{
+     color: #777;
+}
+.caption a:hover{
+    color: #000000;
+}
+.thumbnail .caption{
+    padding: 0;
+}
+.thumbnail{
+    border-radius: 0;
+}
+.thumbnail img{
+    width:100%;
+    height: 300px;
+}
