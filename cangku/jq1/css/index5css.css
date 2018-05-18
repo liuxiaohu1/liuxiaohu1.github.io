@@ -1,0 +1,51 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #16a085;
+}
+#main{
+    margin: 20px auto;
+    width: 400px;
+}
+.box{
+    width: 340px;
+    height: 50px;
+    border:0;
+    padding: 0;
+    float: left;
+    background: #138871;
+    padding-left: 10px;
+    color: white;
+}
+#add{
+    width: 50px;
+    height: 50px;
+    border:0;
+    padding: 0;
+    background: #107864;
+    color: white;
+    line-height:50px;
+}
+#list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#list li{
+    width: 390px;
+    height: 50px;
+    background: #fff;
+    margin-top: 10px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+#list li a{
+    text-decoration: none;
+    color: gray;
+    float: right;
+    line-height: 50px;
+    padding-right: 10px;
+
+}

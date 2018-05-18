@@ -1,0 +1,188 @@
+/*!
+ * shengbangshenghua
+*/
+.navbar-default {
+  border-top: 5px solid #7f1ba1;
+  border-bottom: none;
+  margin-bottom: 0;
+  background-color: #fff; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #ffffff; }
+
+.navbar-nav {
+  float: right;
+  padding: 15px; }
+  .navbar-nav li {
+    margin-left: 10px; }
+    .navbar-nav li:hover {
+      background-color: #9857c1; }
+
+.navbar-brand {
+  padding: 25px; }
+
+.banner {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+  .banner img {
+    display: block;
+    width: 147px;
+    height: 147px;
+    margin: auto; }
+  .banner h2 {
+    text-align: center;
+    margin-top: 40px; }
+  .banner h5 {
+    text-align: center;
+    margin-top: 30px; }
+  .banner p {
+    text-align: center;
+    margin-top: 30px; }
+  .banner a {
+    border-radius: 5px;
+    background-color: #6b15a1;
+    padding: 11px 26px;
+    text-align: center;
+    color: #ffffff; }
+
+.main img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 20px; }
+
+.main h4 {
+  text-align: center; }
+
+.main p {
+  text-align: center; }
+
+.team .jacob {
+  margin-bottom: 130px;
+  border: 1px solid #dddddd;
+  border-radius: 3px; }
+
+.team .jacob-header {
+  background: url("../img/insta-2.jpg");
+  background-size: cover;
+  height: 150px; }
+
+.team .jacob-content {
+  text-align: center;
+  margin-top: -50px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .team .jacob-content p a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #6b15a1;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 30px; }
+
+.team .otto {
+  margin-bottom: 130px;
+  border: 1px solid #dddddd;
+  border-radius: 3px; }
+
+.team .otto-header {
+  background: url("../img/insta-1.jpg");
+  background-size: cover;
+  height: 150px; }
+
+.team .otto-content {
+  text-align: center;
+  margin-top: -50px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .team .otto-content p a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #6b15a1;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 30px; }
+
+.team .dave {
+  margin-bottom: 130px;
+  border: 1px solid #dddddd;
+  border-radius: 3px; }
+
+.team .dave-header {
+  background: url("../img/insta-1.jpg");
+  background-size: cover;
+  height: 150px; }
+
+.team .dave-content {
+  text-align: center;
+  margin-top: -50px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .team .dave-content p a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #6b15a1;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 30px; }
+
+.team h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center; }
+
+.team img {
+  width: 95px;
+  height: 95px;
+  border: 2px solid #fff;
+  border-radius: 50%; }
+
+.explore {
+  margin-bottom: 80px;
+  border-radius: 3px;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-top: 5px solid #6b15a1; }
+  .explore h3 {
+    margin-top: 30px;
+    margin-left: 30px; }
+  .explore p {
+    margin-left: 30px;
+    margin-bottom: 30px; }
+    .explore p a {
+      float: right;
+      margin-top: -80px;
+      border-radius: 5px;
+      background-color: #6b15a1;
+      padding: 11px 26px;
+      color: #fff; }
+
+.footer::after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+ul {
+  padding: 0;
+  display: table;
+  margin: auto;
+  margin-bottom: 80px; }
+  ul::after {
+    display: block;
+    clear: both;
+    content: ""; }
+
+li {
+  float: left;
+  list-style: none; }
+  li a {
+    padding: 15px;
+    color: #6b15a1;
+    float: left; }
+    li a:hover {
+      color: #6b15a1; }

@@ -1,0 +1,24 @@
+.banner{
+    width: 790px;
+    margin: 0 auto;
+}
+.banner img{
+    position: absolute;
+    display: none;
+}
+.banner ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 285px;
+}
+.banner ul li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000000;
+    margin-left: 10px;
+}

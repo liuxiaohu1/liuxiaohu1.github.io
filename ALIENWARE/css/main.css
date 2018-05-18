@@ -1,0 +1,512 @@
+@charset "UTF-8";
+/*! 盛邦升华 */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+header .navbar {
+  z-index: 999;
+  width: 100%;
+  height: 80px;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  border: 0;
+  margin-bottom: 0; }
+  header .navbar .navbar-nav li > a {
+    color: #ffffff;
+    font-size: 16px; }
+  header .navbar .logo {
+    height: 60px; }
+  header .navbar .dropdown-toggle {
+    padding: 29px; }
+  header .navbar .dropdown-menu > li > a {
+    padding: 15px 20px; }
+  header .navbar .contact a {
+    padding: 29px; }
+
+header .navbar-default .navbar-nav > li > a:focus, header .navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #444; }
+
+header .navbar-default .navbar-nav > .open > a, header .navbar-default .navbar-nav > .open > a:focus, header .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #222;
+  color: #fff; }
+
+header .dropdown-menu {
+  background-color: #222; }
+
+header .dropdown-menu > li > a:focus, header .dropdown-menu > li > a:hover {
+  background-color: #444; }
+
+.banner {
+  background: url("../img/banner.jpg");
+  background-size: 100% 100%; }
+  .banner h2 {
+    color: #ffffff;
+    margin-top: 255px; }
+  .banner p {
+    color: #ffffff; }
+  .banner button {
+    margin-bottom: 250px;
+    margin-top: 30px;
+    color: #ffffff;
+    background: #000;
+    border: 3px solid #fff;
+    padding: 20px 30px; }
+    .banner button:hover {
+      color: #222222;
+      background: #ffffff; }
+
+.two h2 {
+  margin-top: 100px;
+  margin-bottom: 50px; }
+
+.two p {
+  margin-top: 30px;
+  margin-bottom: 100px; }
+
+.three {
+  background: url("../img/6.jpg");
+  background-size: 100% 100%; }
+  .three h2 {
+    margin-top: 250px; }
+  .three p {
+    margin-bottom: 250px; }
+
+.four {
+  background: url("../img/7.jpg");
+  background-size: 100% 100%; }
+  .four h2 {
+    margin-top: 250px; }
+  .four p {
+    margin-bottom: 250px; }
+
+.five img {
+  width: 100%; }
+
+.six {
+  background-color: #222222; }
+  .six h3 {
+    color: #ffffff;
+    margin-top: 100px; }
+  .six h4 {
+    color: #ffffff;
+    margin-top: 30px; }
+  .six p {
+    color: #ffffff;
+    margin-top: 30px; }
+  .six button {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    color: #ffffff;
+    background: #222;
+    border: 3px solid #fff;
+    padding: 20px 100px; }
+    .six button:hover {
+      color: #222222;
+      background: #ffffff; }
+
+footer {
+  background: #222; }
+  footer ul {
+    float: left; }
+  footer li {
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 50px; }
+    footer li a {
+      color: #ffffff; }
+      footer li a:hover {
+        color: #ffffff; }
+  footer p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center; }
+
+/*--laptop--*/
+.laptop-one img {
+  width: 100%; }
+
+.laptop-one h1 {
+  text-align: center;
+  margin-top: 300px; }
+
+.laptop-one hr {
+  color: #000000;
+  height: 2px; }
+
+.laptop-one h3 {
+  text-align: center;
+  margin-top: 30px; }
+
+.laptop-one p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+.laptop-two {
+  background-color: #f5f5f5; }
+  .laptop-two h2 {
+    text-align: center;
+    margin-top: 100px; }
+  .laptop-two h3 {
+    text-align: center; }
+  .laptop-two p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+  .laptop-two img {
+    width: 100%; }
+  .laptop-two span {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  .laptop-two h4 {
+    text-align: center; }
+  .laptop-two button {
+    text-align: center;
+    color: #222;
+    background: #ffffff;
+    border: 3px solid #222;
+    padding: 20px 40px; }
+    .laptop-two button:hover {
+      color: #fff;
+      background: #222; }
+
+.laptop-three img {
+  width: 100%; }
+
+.laptop-three .col-md-6 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.laptop-three h3 {
+  margin-top: 100px; }
+
+.laptop-four {
+  background-color: #222; }
+  .laptop-four img {
+    width: 100%; }
+  .laptop-four .col-md-6 {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .laptop-four h3 {
+    color: #ffffff;
+    margin-top: 100px; }
+  .laptop-four p {
+    color: #ffffff; }
+
+.laptop-five img {
+  width: 100%; }
+
+.laptop-five .col-md-6 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.laptop-five h3 {
+  margin-top: 100px; }
+
+.laptop-six {
+  background-color: #f5f5f5; }
+  .laptop-six img {
+    width: 100%; }
+  .laptop-six .col-md-6 {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .laptop-six h3 {
+    margin-top: 100px; }
+
+.laptop-seven {
+  background-color: #222; }
+  .laptop-seven img {
+    width: 100%; }
+  .laptop-seven h3 {
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff; }
+  .laptop-seven p {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px; }
+
+.laptop-eight img {
+  width: 100%; }
+
+.laptop-eight .col-md-6 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.laptop-eight h2 {
+  text-align: center;
+  margin-top: 100px; }
+
+.laptop-eight p {
+  text-align: center; }
+
+.laptop-eight button {
+  text-align: center;
+  margin-top: 30px;
+  color: #222;
+  background: #ffffff;
+  border: 3px solid #222;
+  padding: 20px 40px; }
+  .laptop-eight button:hover {
+    color: #fff;
+    background: #222; }
+
+/*--Computer--*/
+.Computer-one img {
+  width: 100%; }
+
+.Computer-one h1 {
+  text-align: center;
+  margin-top: 300px; }
+
+.Computer-one hr {
+  color: #000000;
+  height: 2px; }
+
+.Computer-one h3 {
+  text-align: center;
+  margin-top: 30px; }
+
+.Computer-one p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+.Computer-two {
+  background-color: #f5f5f5; }
+  .Computer-two h2 {
+    text-align: center;
+    margin-top: 100px; }
+  .Computer-two h3 {
+    text-align: center; }
+  .Computer-two p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+  .Computer-two img {
+    width: 100%; }
+  .Computer-two span {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  .Computer-two h4 {
+    text-align: center;
+    margin-bottom: 50px; }
+  .Computer-two button {
+    text-align: center;
+    color: #222;
+    background: #ffffff;
+    border: 3px solid #222;
+    padding: 20px 40px; }
+    .Computer-two button:hover {
+      color: #fff;
+      background: #222; }
+
+.Computer-three img {
+  width: 100%; }
+
+.Computer-three .col-md-6 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.Computer-three h3 {
+  margin-top: 100px; }
+
+.Computer-four img {
+  width: 100%; }
+
+.Computer-four .col-md-6 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.Computer-four h3 {
+  margin-top: 100px; }
+
+.Computer-five {
+  background-color: #f5f5f5; }
+  .Computer-five img {
+    width: 100%; }
+  .Computer-five .col-md-6 {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .Computer-five h3 {
+    margin-top: 100px; }
+
+.Computer-six {
+  background-color: #f5f5f5; }
+  .Computer-six img {
+    width: 100%; }
+  .Computer-six .col-md-6 {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .Computer-six h3 {
+    margin-top: 100px; }
+
+.Computer-seven {
+  background-color: #222; }
+  .Computer-seven img {
+    width: 100%; }
+  .Computer-seven h3 {
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff; }
+  .Computer-seven p {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px; }
+
+.Computer-eight img {
+  width: 100%; }
+
+.Computer-eight .col-md-6 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.Computer-eight h2 {
+  text-align: center;
+  margin-top: 100px; }
+
+.Computer-eight p {
+  text-align: center; }
+
+.Computer-eight button {
+  text-align: center;
+  margin-top: 30px;
+  color: #222;
+  background: #ffffff;
+  border: 3px solid #222;
+  padding: 20px 40px; }
+  .Computer-eight button:hover {
+    color: #fff;
+    background: #222; }
+
+/*--parts--*/
+.parts-one {
+  background: url("../img/parts-banner.jpg");
+  background-size: 100% 100%; }
+  .parts-one h2 {
+    color: #ffffff;
+    margin-top: 255px; }
+  .parts-one p {
+    color: #ffffff; }
+  .parts-one button {
+    margin-bottom: 250px;
+    margin-top: 30px;
+    color: #ffffff;
+    background: #be1d28;
+    border: 3px solid #fff;
+    padding: 20px 40px; }
+    .parts-one button:hover {
+      color: #222222;
+      background: #ffffff; }
+
+.parts-two h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 150px; }
+
+.parts-two h2 {
+  margin-bottom: 40px; }
+
+.parts-two button {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  color: #222;
+  background: #ffffff;
+  border: 3px solid #222;
+  padding: 20px 80px; }
+  .parts-two button:hover {
+    color: #fff;
+    background: #222; }
+
+.parts-two p {
+  text-align: center; }
+
+.parts-two img {
+  width: 100%; }
+
+/*--parts--*/
+.contact-banner {
+  background-color: #f5f5f5; }
+  .contact-banner img {
+    margin-top: 80px;
+    width: 100%; }
+
+.contact-from {
+  background-color: #f5f5f5; }
+  .contact-from button {
+    text-align: center;
+    color: #222;
+    background: #ffffff;
+    border: 3px solid #222;
+    padding: 20px 40px; }
+    .contact-from button:hover {
+      color: #fff;
+      background: #222; }
+  .contact-from h2 {
+    text-align: center; }
+  .contact-from p {
+    text-align: center; }
+  .contact-from .btn-default {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+.liuyan {
+  background-color: #f5f5f5; }
+  .liuyan fieldset {
+    margin-left: 64px;
+    margin-top: 48px; }
+  .liuyan form {
+    width: 750px;
+    margin: auto; }
+  .liuyan label {
+    width: 100px;
+    float: left; }
+  .liuyan input[type="submit"] {
+    font-size: 20px;
+    margin-left: 156px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 黑体;
+    width: 83px;
+    height: 32px;
+    background: #222;
+    border: 1px solid #999999; }
+  .liuyan input[type="submit"] {
+    margin-right: 20px; }
+  .liuyan span {
+    font-size: 15px;
+    font-family: 黑体;
+    margin-left: 10px; }
+  .liuyan input {
+    width: 400px;
+    height: 36px; }
+  .liuyan #pai {
+    height: 92px; }
+  .liuyan .p1 {
+    margin-left: 100px;
+    margin-top: 24px; }
+  .liuyan .w1 .col-md-4 {
+    margin-top: 32px; }
+  .liuyan .w1 .p2 {
+    margin-top: 10px;
+    margin-left: 24px; }
+  .liuyan button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: #222;
+    background: #ffffff;
+    border: 3px solid #222;
+    padding: 20px 80px; }
+    .liuyan button:hover {
+      color: #fff;
+      background: #222; }

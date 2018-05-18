@@ -1,0 +1,182 @@
+/*------------通用样式----------*/
+body,ul,li,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.header,.containt{
+    width: 1116px;
+    margin: 0 auto;
+}
+.banner{
+    width: 1345px;
+    height: 500px;
+    margin: 0 auto;
+}
+.warper{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background: #FFFFFF;
+
+}
+.logo,.nav,.btn1,.btn2,.btn3,.btn4,.btn5{
+    float: left;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+
+
+/*------------通用样式----------*/
+/*------------header样式----------*/
+.nav{
+    float: left;
+}
+.btn1{
+
+    font-weight: bold;
+    margin-top: 61px;
+}
+.btn2,.btn3,.btn4,.btn5{
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 61px;
+}
+.nav li span{
+    display: block;
+    height: 40px;
+    padding: 0 ;
+    background: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Andalus
+}
+.nav li a{
+    display: block;
+    height: 40px;
+    padding: 0 20px;
+    background: #000000;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Andalus;
+    text-decoration: none;
+}
+.banner img{
+    display: none;
+    position: absolute;
+}
+
+ .nav li{
+    float: left;
+    height: 40px;
+    margin: 20px;
+    overflow: hidden;
+}
+.logo{
+    margin-left: 82px;
+    float: left;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+body{
+    position: relative;
+}
+.huaguo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.page{
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    top: 0;
+}
+.subscribe{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+.page_flip{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+/*------------header样式----------*/
+/*-----------containt样式----------*/
+.top h1{
+    text-align: center;
+    font-weight: bold;
+    color: #929a9d;
+    margin-top: 70px;
+    margin-bottom: 26px;
+}
+.bottom h1{
+    text-align: center;
+    font-weight: bold;
+    color: #929a9d;
+    margin-top: 70px;
+    margin-bottom: 26px;
+}
+.pic2,.pic3,.pic4{
+    margin-left: 30px;
+}
+.top a{
+    background-color: #000000;
+    display: block;
+    width: 249px;
+    height: 322px;
+    color: #AFD400;
+    opacity: 0.6;
+}
+.top li{
+    float: left;
+    width: 250px;
+    height: 322px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.bottom_left a{
+    display: block;
+    width: 538px;
+    height: 458px;
+    background-color: #AFD400;
+    margin-top: -461px;
+    color: #111111;
+    opacity: 0;
+}
+.bottom_left,.bottom_right{
+    float: left;
+}
+.bottom_right li{
+    float: left;
+    margin: 0 0 40px 35px;
+}
+.bottom_right a{
+    display: block;
+    width: 249px;
+    height: 206px;
+    background-color: #AFD400;
+    margin-top: -209px;
+    color: #111111;
+    opacity: 0;
+}
+/*-----------containt样式----------*/

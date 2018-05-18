@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/*!
+ * shengbangshenghua
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+body {
+  font-family: "黑体"; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.container {
+  width: 1200px;
+  margin: auto; }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px; } }
+
+@media (max-width: 960px) {
+  .container {
+    width: 720px; } }
+
+@media (max-width: 720px) {
+  .container {
+    width: 320px; } }
+
+.col-3 {
+  width: 25%;
+  float: left;
+  padding-left: 19px;
+  padding-right: 19px; }
+
+.col-6 {
+  width: 50%;
+  float: left;
+  padding-left: 19px;
+  padding-right: 19px; }
+
+@media (max-width: 720px) {
+  .col-3 {
+    width: 100%; }
+  .col-6 {
+    width: 100%; } }
+
+.row {
+  margin-left: -19px;
+  margin-right: -19px; }
+
+.text-center {
+  text-align: center; }
+
+header .container {
+  display: flex; }
+
+header .logo {
+  float: left;
+  margin-top: 17px;
+  flex: 1; }
+
+header .nav-center {
+  flex: 1; }
+
+header ul {
+  float: left;
+  flex: 3; }
+  header ul li {
+    float: left; }
+    header ul li a {
+      display: block;
+      padding: 34px 12px;
+      color: #666666; }
+      header ul li a.active, header ul li a:hover {
+        border-bottom: 2px #0086da solid;
+        color: #0086da; }
+
+@media (max-width: 1200px) {
+  .nav-center {
+    display: none; } }
+
+@media (max-width: 960px) {
+  header ul li a {
+    padding: 25px 6px;
+    font-size: 14px; } }
+
+@media (max-width: 720px) {
+  header .logo {
+    text-align: center;
+    float: none; }
+  header .logo a {
+    display: inline-block; }
+  header .container {
+    display: block; }
+  header ul li:nth-of-type(4) {
+    display: block; }
+  header ul li a {
+    padding: 25px 10px; }
+  header ul li a.active, header ul li a:hover {
+    color: #0086da;
+    border: 0; } }
+
+.banner img {
+  width: 100%; }
+
+.jiejuefangan {
+  padding-top: 34px;
+  padding-bottom: 42px; }
+  .jiejuefangan h2 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 18px; }
+  .jiejuefangan p {
+    color: #555555;
+    font-size: 14px; }
+  .jiejuefangan img {
+    border: 15px #f0f0f0 solid;
+    margin-bottom: 20px; }
+  .jiejuefangan .jiejue-text {
+    margin-bottom: 40px; }
+    .jiejuefangan .jiejue-text i {
+      display: inline-block;
+      width: 20px;
+      height: 32px;
+      background: url("../img/tubiao.png");
+      background-position: 0 0.5px;
+      margin-right: 10px; }
+    .jiejuefangan .jiejue-text h1 {
+      font-size: 26px;
+      font-weight: 100;
+      margin-bottom: 14px; }
+
+@media (max-width: 760px) {
+  .jiejuefangan .col-3 div {
+    margin-bottom: 20px; } }
+
+.kehuanli {
+  background-color: #128abc;
+  padding-bottom: 26px; }
+  .kehuanli .anli-text {
+    background-color: #f0eeed;
+    padding-top: 43px;
+    padding-bottom: 37px; }
+    .kehuanli .anli-text i {
+      width: 36px;
+      height: 31px;
+      display: inline-block;
+      background: url("../img/tubiao.png");
+      background-position: 0 -31px;
+      margin-right: 10px; }
+    .kehuanli .anli-text h1 {
+      font-size: 26px;
+      font-weight: 100;
+      margin-bottom: 14px; }
+    .kehuanli .anli-text span {
+      color: #555;
+      font-size: 14px; }
+  .kehuanli .container {
+    display: flex; }
+  .kehuanli img {
+    width: 25%;
+    display: block;
+    float: left; }
+  .kehuanli img:nth-of-type(5) {
+    margin-bottom: 27px; }
+  .kehuanli ul {
+    flex: 1; }
+    .kehuanli ul li {
+      color: #ffffff; }
+    .kehuanli ul li:nth-of-type(1) {
+      margin-bottom: 20px; }
+  .kehuanli p:nth-of-type(1) {
+    flex: 1;
+    text-align: right;
+    margin-top: 7px; }
+    .kehuanli p:nth-of-type(1) a {
+      display: inline-block;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: 2px #ffffff solid;
+      border-radius: 8px; }
+      .kehuanli p:nth-of-type(1) a:hover {
+        background-color: #ffffff;
+        color: #128abc; }
+
+@media (max-width: 760px) {
+  .kehuanli .container {
+    display: block; }
+  .kehuanli ul li {
+    text-align: center; }
+  .kehuanli p:nth-of-type(1) {
+    text-align: center; }
+  .kehuanli {
+    text-align: center; }
+  .kehuanli img {
+    width: 80%;
+    margin-bottom: 10px;
+    display: inline-block;
+    float: none; }
+  .kehuanli img:nth-of-type(5) {
+    margin-bottom: 10px; } }
+
+.xinwendongtai {
+  padding-top: 34px;
+  padding-bottom: 40px; }
+  .xinwendongtai .xinwen-text {
+    padding-bottom: 44px; }
+    .xinwendongtai .xinwen-text i {
+      width: 42px;
+      height: 28px;
+      display: inline-block;
+      background: url("../img/tubiao.png");
+      background-position: 0 -63px;
+      margin-right: 10px; }
+    .xinwendongtai .xinwen-text h1 {
+      font-size: 26px;
+      font-weight: 100;
+      margin-bottom: 14px; }
+    .xinwendongtai .xinwen-text p {
+      color: #555;
+      font-size: 14px; }
+  .xinwendongtai .xinwen-1 img, .xinwendongtai .xinwen-1 h1, .xinwendongtai .xinwen-1 p, .xinwendongtai .xinwen-1 a {
+    float: left; }
+  .xinwendongtai .xinwen-1 h2 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 220px; }
+  .xinwendongtai .xinwen-1 p:nth-of-type(1) {
+    margin-bottom: 20px; }
+  .xinwendongtai .xinwen-1 p:nth-of-type(2) {
+    margin-bottom: 10px; }
+  .xinwendongtai .xinwen-1 p {
+    width: 380px;
+    padding-left: 22px; }
+  .xinwendongtai .xinwen-1 a {
+    display: block;
+    padding: 7px 16px;
+    background-color: #128abc;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-left: 20px; }
+    .xinwendongtai .xinwen-1 a:hover {
+      border: 1px #128abc solid;
+      background-color: #ffffff;
+      color: #128abc; }
+
+@media (max-width: 1200px) {
+  .xinwendongtai .xinwen-1 h2 {
+    margin-bottom: 10px; }
+  .xinwendongtai .xinwen-1 p:nth-of-type(1) {
+    margin-bottom: 10px; }
+  .xinwendongtai .xinwen-1 p {
+    width: 250px; } }
+
+@media (max-width: 960px) {
+  .xinwendongtai .xinwen-1 h2 {
+    font-size: 13px; }
+  .xinwendongtai .xinwen-1 p {
+    font-size: 11px;
+    width: 140px; } }
+
+@media (max-width: 720px) {
+  .xinwendongtai .xinwen-1 a, .xinwendongtai .xinwen-1 h1, .xinwendongtai .xinwen-1 img, .xinwendongtai .xinwen-1 p {
+    float: none; }
+  .xinwen-1 img, .xinwendongtai .xinwen-1 p {
+    width: 100%; }
+  .xinwendongtai .xinwen-1 p {
+    font-size: 16px; }
+  .xinwendongtai .xinwen-1 h2 {
+    margin-left: 20px;
+    font-size: 24px; }
+  .xinwendongtai .xinwen-1 a {
+    display: inline-block; }
+    .xinwendongtai .xinwen-1 a:hover {
+      border: 0;
+      background-color: #5f4a40;
+      color: #ffffff; }
+  .xinwen-1 {
+    padding-bottom: 10px;
+    text-align: center; } }
+
+.fuwukehu {
+  background-color: #f0eeed;
+  padding-top: 42px;
+  padding-bottom: 30px; }
+  .fuwukehu .fuwu-text {
+    margin-bottom: 32px; }
+    .fuwukehu .fuwu-text i {
+      width: 39px;
+      height: 37px;
+      display: inline-block;
+      background: url("../img/tubiao.png");
+      background-position: -44px 0;
+      margin-right: 10px; }
+    .fuwukehu .fuwu-text h1 {
+      font-size: 26px;
+      font-weight: 100;
+      margin-bottom: 14px; }
+    .fuwukehu .fuwu-text p {
+      color: #555;
+      font-size: 14px; }
+  .fuwukehu ul {
+    display: flex;
+    text-align: center; }
+  .fuwukehu li {
+    flex: 1; }
+
+@media (max-width: 760px) {
+  .fuwukehu ul, footer .container {
+    display: block; }
+  .fuwukehu li {
+    margin-bottom: 10px; } }
+
+footer {
+  padding-top: 45px;
+  padding-bottom: 43px;
+  background: url("../img/footer.gif");
+  background-size: 100% 100%; }
+  footer .container {
+    display: flex; }
+  footer ul {
+    flex: 1; }
+  footer li, footer li a, footer h2 {
+    color: #ffffff; }
+  footer li {
+    margin-bottom: 10px; }
+  footer h2 {
+    font-size: 16px;
+    margin-left: 22px;
+    margin-bottom: 29px; }
+  footer ul:nth-of-type(1) i {
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    background: url("../img/tubiao.png");
+    background-position: -48px -54px; }
+  footer ul:nth-of-type(1) li:nth-of-type(1) {
+    margin-bottom: 29px; }
+  footer ul:nth-of-type(1) li:nth-of-type(6) {
+    font-weight: 600; }
+  footer ul:nth-of-type(2) li:nth-of-type(1), footer ul:nth-of-type(2) li:nth-of-type(2), footer ul:nth-of-type(2) li:nth-of-type(3), footer ul:nth-of-type(2) li:nth-of-type(4), footer ul:nth-of-type(2) li:nth-of-type(5), footer ul:nth-of-type(2) li:nth-of-type(6) {
+    display: inline-block; }
+  footer ul:nth-of-type(2) li {
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 20px; }
+  footer ul:nth-of-type(2) a {
+    padding-bottom: 5px; }
+    footer ul:nth-of-type(2) a:hover {
+      border-bottom: 2px #ffffff solid; }
+
+@media (max-width: 720px) {
+  footer ul:nth-of-type(3) {
+    display: none; }
+  footer ul:nth-of-type(1) {
+    margin-bottom: 25px; }
+  footer .container {
+    display: block;
+    text-align: center; } }

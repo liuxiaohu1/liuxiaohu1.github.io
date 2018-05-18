@@ -1,0 +1,493 @@
+#div_side_0,#div_side_1
+{
+    float:left;
+    width:120px;
+    height:450px;
+}
+#skin
+{
+    margin-top:10px;
+    padding:5px;
+    width:120px;
+    padding-right:0px;
+    list-style:none;
+    overflow:hidden;
+}
+#skin li{
+    float:left;
+    margin-right:5px;
+    width:15px;
+    height:15px;
+    text-indent:-999px;
+    overflow:hidden;
+    display:block;
+    cursor:pointer;
+    background-image:url(../images/theme.gif);
+}
+#skin_0{
+    background-position:0px 0px;
+}
+#skin_1{
+    background-position:15px 0px;
+}
+#skin_2{
+    background-position:35px 0px;
+}
+#skin_3{
+    background-position:55px 0px;
+}
+#skin_4{
+    background-position:75px 0px;
+}
+#skin_5{
+    background-position:95px 0px;
+}
+#skin_0.selected{
+    background-position:0px 15px !important;
+}
+#skin_1.selected{
+    background-position:15px 15px !important;
+}
+#skin_2.selected{
+    background-position:35px 15px !important;
+}
+#skin_3.selected{
+    background-position:55px 15px !important;
+}
+#skin_4.selected{
+    background-position:75px 15px !important;
+}
+#skin_5.selected{
+    background-position:95px 15px !important;
+}
+.title
+{
+    cursor:pointer;}
+h1{
+    margin:10px;
+    padding:10px 20px;
+    width:60px;
+    color:#ffffff;
+    font-size:14px;
+}
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+}
+/*--------通用样式----------*/
+body,ul,li,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.header,.banner{
+    width: 990px;
+    margin: 0 auto;
+}
+.warper{
+    width:100%;
+}
+li{
+    list-style: none;
+    float: left;
+}
+/*--------通用样式----------*/
+/*--------header样式----------*/
+.header-inner{
+    width:100%;
+    height:104px;
+    background-color: #eaeaea;
+}
+.logo,input{
+    float: left;
+}
+input{
+    width:204px;
+    height:27px;
+}
+.logo{
+    margin-top: 8px;
+}
+input{
+    margin: 20px 0px 0px 42px;
+}
+#skin{
+    float: right;
+}
+.mainNav{
+    font-family: 黑体;
+    font-size: 18px;
+    height:37px;
+    background-color: #4a4a4a;
+    line-height: 2;
+}
+.mainNav li a{
+    color: #fbfcf7;
+}
+.mainNav li{
+    margin-left: 30px;
+}
+.mainNav{
+    position: relative;
+}
+.xiala{
+    height: 140px;
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 999;
+    border-radius: 0 0 4px 4px;
+    display: none;
+    background: #000000;
+}
+.xiala li{
+    display: block;
+}
+.xiala li a{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+/*--------header样式----------*/
+/*--------banner样式----------*/
+#jnCatalog h2{
+    width:174px;
+    height:30px;
+    background-color: #3f589a;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 10px 10px 0px 0px;
+    padding-left: 13px;
+}
+.shangpin{
+    width: 185px;
+    border: 1px  #6e6e6e solid;
+    float: left;
+    padding-bottom: 25px;
+}
+.xiezi img{
+    -weblit-transition: 1s all;
+    -moz-transition: 1s all;
+    -o-transition: 1s all;
+    transition: 1s all;
+}
+.xiezi:hover img {
+    -weblit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    transform: rotate(720deg);
+}
+hr{
+    width: 165px;
+    color: #000000;
+    float: left;
+    margin-left: 10px;
+}
+.pinpai_left{
+    width: 42px;
+    float: left;
+    margin-left: 10px;
+}
+.pinpai_left a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.tuijianpinpai{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pinpai_right{
+    width: 57px;
+    float: left;
+    margin-left: 44px;
+}
+.pinpai_right a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.nvzhuang_left{
+    width: 42px;
+    float: left;
+    margin-left: 10px;
+}
+.nvzhuang_left a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.nvzhuang h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+.nvzhuang_right{
+    width: 57px;
+    float: left;
+    margin-left: 44px;
+}
+.nvzhuang_right a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.tuijian h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+.nanzhuang_left{
+    width: 42px;
+    float: left;
+    margin-left: 10px;
+}
+.nanzhuang_left a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.nanzhuang h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+.nanzhuang_right{
+    width: 57px;
+    float: left;
+    margin-left: 44px;
+}
+.nanzhuang_right a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.xie_left{
+    width: 42px;
+    float: left;
+    margin-left: 10px;
+}
+.xie_left a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.xie h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+.xie_right{
+    width: 57px;
+    float: left;
+    margin-left: 44px;
+}
+.xie_right a{
+    line-height: 18px;
+    font-size: 12px;
+}
+.banner{
+    position: relative;
+}
+.guanggao{
+    position: absolute;
+    left: 200px;
+    top: 10px;;
+}
+.guanggao img{
+    display: none;
+    position: absolute;
+}
+.guanggao a{
+    color: #ffffff;
+}
+.pic_1,.pic_2,.pic_3,.pic_4,.pic_5{
+    background: #444444;
+    width: 108px;
+    height: 42px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+
+}
+.pic_1{
+    position: absolute;
+    left: 0px;
+    top: 279px;
+}
+.pic_2{
+    margin-left: 2px;
+    position: absolute;
+    left: 109px;
+    top: 279px;
+}
+.pic_3{
+    margin-left: 3px;
+    position: absolute;
+    left: 218px;
+    top: 279px;
+}
+.pic_4{
+    margin-left: 4px;
+    position: absolute;
+    left: 327px;
+    top: 279px;
+}
+.pic_5{
+    margin-left: 6px;
+    position: absolute;
+    left: 436px;
+    top: 279px;
+}
+.xiezi{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.dongtai{
+    width: 228px;
+    height: 133px;
+    position: absolute;
+    right: 0px;
+    top: 196px;
+    border: 1px #dedede solid;
+}
+.dongtai h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+.dongtai a{
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+}
+.dongtai hr{
+    width: 228px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.huodong{
+    width: 790px;
+    position: absolute;
+    right: 0px;
+    top: 350px;
+}
+.huodong h1{
+    font-size: 14px;
+    color: #000000;
+    float: left;
+}
+.huodong li a{
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+}
+.xie1{
+    margin-left: 515px;
+}
+.xie2,.xie3,.xie4{
+    margin-left: 10px;
+
+}
+.huodong hr{
+    width: 790px;
+    margin-left: 0px;
+    margin: 0px;
+}
+.huodong img{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.naike{
+    margin-left: 8px;
+    float: left;
+    width: 183px;
+    height: 24px;
+    background: #efefef;
+}
+.adidasi{
+    margin-left: 12px;
+    float: left;
+    width: 183px;
+    height: 24px;
+    background: #efefef;
+}
+.lining{
+    margin-left: 8px;
+    float: left;
+    width: 183px;
+    height: 24px;
+    background: #efefef;
+}
+.anta{
+    margin-left: 8px;
+    float: left;
+    width: 183px;
+    height: 24px;
+    background: #efefef;
+}
+.v_content {
+    position: relative;
+    width: 813px;
+    height: 200px;
+    overflow: hidden;
+}
+.v_content_list{
+    width: 3225px;
+}
+.v-content ul{
+    float: left;
+
+}
+.v-content ul li{
+    display: inline;
+    margin: 10px 5px 0px 10px;
+    height: 190px;
+}
+.v-content ul li a{
+    display: block;
+    width: 183px;
+    height: 164px;
+
+}
+.v-content ul li img{
+    width: 183px;
+    height: 164px;
+
+}
+.v-content ul li h4{
+    width: 128px;
+    height: 18px;
+    margin-top: 12px;
+    font-weight: normal;
+}
+.v-content ul li h4 a{
+    display: inline !important;
+    height: auto!important;
+}
+.v-content ul li span{
+    color: #666666;
+}
+.v-content_list ul{
+    width: 3200px;
+}
+.xie1,.xie2,.xie3,.xie4{
+    width: 44px;
+    height: 19px;
+    background: #e4e4e4;
+}
+/*--------banner样式----------*/
